@@ -39,15 +39,18 @@ The calculation is made using random number generator function.
 
 Training
 ```
-When you select one of the five types of training, your character's stat values related to the training increase.
+When you select one of the five types of training, your character's stat
+values related to the training increase.
 At the same time, your character's current_hp value decreases(spends current hp value).
 When you do the same type of training for 5 times in total, that type of training level increases,
-and your character will have greater stat value increasement from the same type of training. Up to lv.5, but not possible yet.
+and your character will have greater stat value increasement from the same type of training.
+Up to lv.5, but not possible yet.
 ```
 
 ```
 Taking a break
-Recovers current_hp value. Intellect training also recovers the current_hp value, but taking a break recovers much more value.
+Recovers current_hp value. Intellect training also recovers the current_hp value,
+but taking a break recovers much more value.
 ```
 
 1-2. Race
@@ -63,12 +66,14 @@ Track contains two types of floors:
 ```
 Flat floor
 ```
-speed and power of the character affects to the distance/sleep. Spends stamina value, and when stamina goes below 50, speed slows down.
+speed and power of the character affects to the distance/sleep. Spends stamina value,
+and when stamina goes below 50, speed slows down.
 will be represented as '-'.
 ```
 Uphill floor
 ```
-power affects more to the distance/sleep compared to the flat floor. Spends greater amount of stamina value, and when stamina goes below 50, speed slows down.
+power affects more to the distance/sleep compared to the flat floor. Spends greater amount of
+stamina value, and when stamina goes below 50, speed slows down.
 will be represented as '^'
 ```
 Character
@@ -77,12 +82,16 @@ each character will be represented by character 'o' on track.
 ```
 Winner
 ```
-After the race, winner's name will be displayed on terminal. After this, your character will be listed on the graduated runner list, becomes selectable on 2nd mode.
+After the race, winner's name will be displayed on terminal. After this, your character will
+be listed on the graduated runner list, becomes selectable on 2nd mode.
 ```
 # 2. versus mode
-you can select two character out of all characters you trained. You can see which character that you trained can run faster.
-* you can see the same characters during selection, but cannot select them twice in a row. However, just characters with the same name can be selected in a row.
-
+```
+you can select two character out of all characters you trained.
+You can see which character that you trained can run faster.
+* you can see the same characters during selection, but cannot select them twice in a row.
+However, just characters with the same name can be selected in a row.
+```
 # What can be developed further
 1. Usage of will and intellect stats. They do not have any role in my code yet, but can add role during race.
 2. Types of running. Depends on types of running for each character, the speed formula can be varied instead of making all of them having the same spped formula.
@@ -96,4 +105,7 @@ you can select two character out of all characters you trained. You can see whic
 
 
 # Reference:
-This project is started from game called Umamusume. I used to play that game and wondered if I can make this game using my own code, so lots of idea & terms came from that game.
+```
+This project is started from game called Umamusume. I used to play that game and wondered
+if I can make this game using my own code, so lots of idea & terms came from that game.
+```
