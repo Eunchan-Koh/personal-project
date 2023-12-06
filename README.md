@@ -4,7 +4,7 @@ Repository for my personal project - text game ish
 ```
 # How to play
 ```
-when you run this program, each lines will show up on the terminal to explain what you can do.
+when you run this program from ide(cpp file is in src), each lines will show up on the terminal to explain what you can do.
 You can follow the descriptions to play.
 For most of the cases, you can just type in a number that
 corresponds to the selection of your choice instead of typing in a whole word.
