@@ -47,8 +47,8 @@ and your character will have greater stat value increasement from the same type 
 Up to lv.5, but not possible yet.
 ```
 
-```
 Taking a break
+```
 Recovers current_hp value. Intellect training also recovers the current_hp value,
 but taking a break recovers much more value.
 ```
