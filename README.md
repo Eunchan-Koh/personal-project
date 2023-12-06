@@ -1,60 +1,77 @@
 # personal-project
+```
 Repository for my personal project - text game ish
-
+```
 # How to play
+```
 when you run this program, each lines will show up on the terminal to explain what you can do. You can follow the descriptions to play.
 For most of the cases, you can just type in a number that corresponds to the selection of your choice instead of typing in a whole word.
-
+```
 # Mode selection
 you can select what mode you want to play out of two modes:
 1. normal mode
 2. versus mode
 
 # 1. Normal mode
+```
 You can select which character you want to train. Each character will have different initial status, and whoever you pick, you will be given 20 turns of training before the race.
 The final race's opponent is named Arone, who has a fixed status for all characters.
 After the final race, your character will be included into a list of graduated character, no matter if you won or lost the final battle.
+```
 
 1-1. Training
+```
 During turns, you have following things:
 current_hp value;
 training selections;
 taking a break;
-
+```
 Current_hp
+```
 current_hp value affects to the percentage of the character finishing his training successfully.
 When your character's current_hp value is low, training success rate goes below 100%, Max to 0%.
 The calculation is made using random number generator function.
+```
 
 Training
+```
 When you select one of the five types of training, your character's stat values related to the training increase. At the same time, your character's current_hp value decreases(spends current hp value).
 When you do the same type of training for 5 times in total, that type of training level increases, and your character will have greater stat value increasement from the same type of training. Up to lv.5, but not possible yet.
+```
 
+```
 Taking a break
 Recovers current_hp value. Intellect training also recovers the current_hp value, but taking a break recovers much more value.
+```
 
 1-2. Race
+```
 On terminal, your character and opponent character's name and stats will be displayed. After you type in anything to the terminal, the race will begin.
-
+```
 Track
+```
 Track contains two types of floors:
 1. Flat floor
 2. Uphill floor
-
+```
 Flat floor
+```
 speed and power of the character affects to the distance/sleep. Spends stamina value, and when stamina goes below 50, speed slows down.
 will be represented as '-'.
-
+```
 Uphill floor
+```
 power affects more to the distance/sleep compared to the flat floor. Spends greater amount of stamina value, and when stamina goes below 50, speed slows down.
 will be represented as '^'
-
+```
 Character
+```
 each character will be represented by character 'o' on track. 
-
+```
 Winner
+```
 After the race, winner's name will be displayed on terminal. After this, your character will be listed on the graduated runner list, becomes selectable on 2nd mode.
-
+```
 # 2. versus mode
 you can select two character out of all characters you trained. You can see which character that you trained can run faster.
 * you can see the same characters during selection, but cannot select them twice in a row. However, just characters with the same name can be selected in a row.
