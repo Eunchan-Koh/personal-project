@@ -1,2 +1,2 @@
 # personal-project
-Respiratory for my personal project - text game ish
+Repository for my personal project - text game ish
