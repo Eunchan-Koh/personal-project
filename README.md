@@ -4,8 +4,10 @@ Repository for my personal project - text game ish
 ```
 # How to play
 ```
-when you run this program, each lines will show up on the terminal to explain what you can do. You can follow the descriptions to play.
-For most of the cases, you can just type in a number that corresponds to the selection of your choice instead of typing in a whole word.
+when you run this program, each lines will show up on the terminal to explain what you can do.
+You can follow the descriptions to play.
+For most of the cases, you can just type in a number that
+corresponds to the selection of your choice instead of typing in a whole word.
 ```
 # Mode selection
 you can select what mode you want to play out of two modes:
@@ -14,9 +16,11 @@ you can select what mode you want to play out of two modes:
 
 # 1. Normal mode
 ```
-You can select which character you want to train. Each character will have different initial status, and whoever you pick, you will be given 20 turns of training before the race.
+You can select which character you want to train. Each character will have
+different initial status, and whoever you pick, you will be given 20 turns of training before the race.
 The final race's opponent is named Arone, who has a fixed status for all characters.
-After the final race, your character will be included into a list of graduated character, no matter if you won or lost the final battle.
+After the final race, your character will be included into a list of graduated character,
+no matter if you won or lost the final battle.
 ```
 
 1-1. Training
@@ -35,8 +39,10 @@ The calculation is made using random number generator function.
 
 Training
 ```
-When you select one of the five types of training, your character's stat values related to the training increase. At the same time, your character's current_hp value decreases(spends current hp value).
-When you do the same type of training for 5 times in total, that type of training level increases, and your character will have greater stat value increasement from the same type of training. Up to lv.5, but not possible yet.
+When you select one of the five types of training, your character's stat values related to the training increase.
+At the same time, your character's current_hp value decreases(spends current hp value).
+When you do the same type of training for 5 times in total, that type of training level increases,
+and your character will have greater stat value increasement from the same type of training. Up to lv.5, but not possible yet.
 ```
 
 ```
@@ -46,7 +52,8 @@ Recovers current_hp value. Intellect training also recovers the current_hp value
 
 1-2. Race
 ```
-On terminal, your character and opponent character's name and stats will be displayed. After you type in anything to the terminal, the race will begin.
+On terminal, your character and opponent character's name and stats will be displayed.
+After you type in anything to the terminal, the race will begin.
 ```
 Track
 ```
