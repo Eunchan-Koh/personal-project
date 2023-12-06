@@ -92,6 +92,12 @@ You can see which character that you trained can run faster.
 * you can see the same characters during selection, but cannot select them twice in a row.
 However, just characters with the same name can be selected in a row.
 ```
+# After each mode ends
+```
+You can keep playing if you want. After each mode ends, terminal will ask your intention.
+If you want to play again, type in 'Y'. You will go to mode selection page again.
+If you want to quit, type in 'N'. The game will say good bye to you.
+```
 # What can be developed further
 1. Usage of will and intellect stats. They do not have any role in my code yet, but can add role during race.
 2. Types of running. Depends on types of running for each character, the speed formula can be varied instead of making all of them having the same spped formula.
