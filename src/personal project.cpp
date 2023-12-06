@@ -1,9 +1,9 @@
 //============================================================================
-// Name        : umamusume.cpp
-// Author      : 
+// Name        : personal_project.cpp
+// Author      : Eunchan Koh
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : Runner_Maker game project made by Eunchan Koh.
 //============================================================================
 
 #include <iostream>
@@ -666,10 +666,13 @@ void versus(struct character current_character, struct character versus_characte
 		}else if(floor_type == 1){
 			cur_stamina -= 10*level*0.75;
 		}
+		if(cur_stamina<0){
+			cur_stamina = 0;
+		}
 		// flat distance below 3000!
 			ran_distance += additional_run(current_character, floor_type, cur_stamina);
-			cout << "ran: " << additional_run(current_character, floor_type, cur_stamina) << endl;
-			cout << "cur_stamina: " << cur_stamina << endl;
+//			cout << "ran: " << additional_run(current_character, floor_type, cur_stamina) << endl;
+//			cout << "cur_stamina: " << cur_stamina << endl;
 
 			cout<<endl;
 //			cout<<additional_run(current_character, floor_type, cur_stamina)<<endl;
@@ -696,9 +699,12 @@ void versus(struct character current_character, struct character versus_characte
 		}else if(versus_floor_type == 1){
 			versus_cur_stamina -= 10*level*0.75;
 		}
+		if(versus_cur_stamina<0){
+			versus_cur_stamina = 0;
+		}
 			versus_ran_distance += additional_run(versus_character, versus_floor_type, versus_cur_stamina);
-			cout << "ran: " << additional_run(versus_character, versus_floor_type, versus_cur_stamina) << endl;
-			cout << "versus_cur_stamina: " << versus_cur_stamina << endl;
+//			cout << "ran: " << additional_run(versus_character, versus_floor_type, versus_cur_stamina) << endl;
+//			cout << "versus_cur_stamina: " << versus_cur_stamina << endl;
 
 
 
