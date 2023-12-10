@@ -636,9 +636,11 @@ void versus(struct character current_character, struct character versus_characte
 	double cur_stamina = (double)(current_character.get_stamina());
 	int versus_ran_distance = 0;
 	double versus_cur_stamina = (double)(versus_character.get_stamina());
-	int first_flat[2] = {0, 3000};
-	int first_uphill[2] = {3000,7000};
-	int second_flat[2] = {7000, 0};
+	int first_surface_c = (rand()%2+1)*3000;
+	int secont_sufrace_c = (rand()%2+1)*7000;
+	int first_flat[2] = {0, first_surface_c};
+	int first_uphill[2] = {first_surface_c,secont_sufrace_c};
+	int second_flat[2] = {secont_sufrace_c, 0};
 	char *winner;
 	int floor_type = 0;//0 flat, 1 uphill, 2 downhill
 	int versus_floor_type = 0;
