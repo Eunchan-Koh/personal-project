@@ -117,6 +117,9 @@ You can keep playing if you want. After each mode ends, terminal will ask your i
 If you want to play again, type in 'Y'. You will go to mode selection page again.
 If you want to quit, type in 'N'. The game will say good bye to you.
 ```
+![exit1](https://github.com/Eunchan-Koh/personal-project/assets/80871891/68df0c03-dc77-4722-bca3-61804d1cd808)
+
+
 # What can be developed further
 1. Usage of will and intellect stats. They do not have any role in my code yet, but can add role during race.
 2. Types of running. Depends on types of running for each character, the speed formula can be varied instead of making all of them having the same spped formula.
