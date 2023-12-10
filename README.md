@@ -14,6 +14,8 @@ corresponds to the selection of your choice instead of typing in a whole word.
 you can select what mode you want to play out of two modes:
 1. normal mode
 2. versus mode
+![mode selection](https://github.com/Eunchan-Koh/personal-project/assets/80871891/926c6b01-2e71-4728-8058-7e07bcb5ba3d)
+
 
 # 1. Normal mode
 ```
@@ -23,6 +25,8 @@ The final race's opponent is named Arone, who has a fixed status for all charact
 After the final race, your character will be included into a list of graduated character,
 no matter if you won or lost the final battle.
 ```
+![3](https://github.com/Eunchan-Koh/personal-project/assets/80871891/facbc396-78cf-4b2b-be22-edc2270f1fe7)
+
 
 1-1. Training
 ```
@@ -31,6 +35,9 @@ current_hp value;
 training selections;
 taking a break;
 ```
+![4](https://github.com/Eunchan-Koh/personal-project/assets/80871891/a46a0a88-ffed-46e4-809d-880950b3d471)
+
+
 Current_hp
 ```
 current_hp value affects to the percentage of the character finishing his training successfully.
@@ -59,6 +66,8 @@ but taking a break recovers much more value.
 On terminal, your character and opponent character's name and stats will be displayed.
 After you type in anything to the terminal, the race will begin.
 ```
+![1](https://github.com/Eunchan-Koh/personal-project/assets/80871891/322817b5-ac18-4938-a7a0-eda2e5dd0c1c)
+
 Track
 ```
 Track contains two types of floors:
@@ -86,6 +95,8 @@ Winner
 After the race, winner's name will be displayed on terminal. After this, your character will
 be listed on the graduated runner list, becomes selectable on 2nd mode.
 ```
+![2](https://github.com/Eunchan-Koh/personal-project/assets/80871891/2313c4f1-c2b1-4785-977f-86ad4fd40b97)
+
 # 2. versus mode
 ```
 you can select two character out of all characters you trained.
