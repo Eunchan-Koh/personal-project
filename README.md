@@ -14,6 +14,7 @@ corresponds to the selection of your choice instead of typing in a whole word.
 you can select what mode you want to play out of two modes:
 1. normal mode
 2. versus mode
+
 ![mode selection](https://github.com/Eunchan-Koh/personal-project/assets/80871891/926c6b01-2e71-4728-8058-7e07bcb5ba3d)
 
 
