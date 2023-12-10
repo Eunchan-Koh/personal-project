@@ -105,6 +105,12 @@ You can see which character that you trained can run faster.
 * you can see the same characters during selection, but cannot select them twice in a row.
 However, just characters with the same name can be selected in a row.
 ```
+![versus1](https://github.com/Eunchan-Koh/personal-project/assets/80871891/ccd24b5a-9c83-4237-9199-cd8b03130e5a)
+![versus2](https://github.com/Eunchan-Koh/personal-project/assets/80871891/1acfa0fc-c298-435f-aab2-db4230763a29)
+
+
+
+
 # After each mode ends
 ```
 You can keep playing if you want. After each mode ends, terminal will ask your intention.
