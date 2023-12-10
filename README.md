@@ -1,6 +1,7 @@
-# personal-project
+# Runner Maker Game Project
 ```
-Repository for my personal project - Runner Maker
+Repository for my personal project - Runner Maker.
+Simulation game - user trains a runner and prepare for a final race as a coach!
 ```
 # How to play
 ```
