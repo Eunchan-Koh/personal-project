@@ -122,7 +122,7 @@ If you want to quit, type in 'N'. The game will say good bye to you.
 
 
 # What can be developed further
-1. Usage of will and intellect stats. They do not have any role in my code yet, but can add role during race.
+1. Usage of will and intellect stats. They do not have any role in my code yet, but roles during races can be added.
 2. Types of running. Depends on types of running for each character, the speed formula can be varied instead of making all of them having the same spped formula.
 3. Types of Track. There are only one track in this code so far, but can add multiple numbers of track and choose one of them by rng.
 4. Events. can make various events and make them happen randomly, such as recovering current_hp value during training with event explanation.
